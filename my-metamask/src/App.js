@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { ethers } from "ethers";
 import logo from "./logo.svg";
-import { net } from "web3";
 
 function App() {
   const [haveMetamask, sethaveMetamask] = useState(true);
